@@ -26,8 +26,8 @@ public class InfoPopup : MonoBehaviour
 	{
 		canvasGroup = GetComponent<CanvasGroup>();
 		text = GetComponentInChildren<Text>();
-		countdown = transform.FindChild("Countdown").GetComponent<CanvasGroup>();
-		countdownProgress = transform.FindChild("Countdown/Progress").GetComponent<RectTransform>();
+		countdown = transform.Find("Countdown").GetComponent<CanvasGroup>();
+		countdownProgress = transform.Find("Countdown/Progress").GetComponent<RectTransform>();
 
 		canvasGroup.alpha = 0.0f;
 		countdown.alpha = 0.0f;

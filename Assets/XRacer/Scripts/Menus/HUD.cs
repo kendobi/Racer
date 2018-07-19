@@ -19,8 +19,8 @@ public class HUD : MonoBehaviour
 	{
 		canvasGroup = GetComponent<CanvasGroup>();
 		// find our child text components
-		distanceText = transform.FindChild("DistanceMeters").GetComponent<Text>();
-		recordText = transform.FindChild("RecordMeters").GetComponent<Text>();
+		distanceText = transform.Find("DistanceMeters").GetComponent<Text>();
+		recordText = transform.Find("RecordMeters").GetComponent<Text>();
 
 		// start with HUD off.
 		canvasGroup.alpha = 0.0f;

@@ -15,7 +15,7 @@ public class StoreMenu : MenuScreen
 	{
 		base.Awake();
 		
-		availableFunds = transform.FindChild("CreditText").GetComponent<Text>();
+		availableFunds = transform.Find("CreditText").GetComponent<Text>();
 	}
 
 	public override void Show(float fade, TransitionDirection direction, SimpleTween.Callback callback)

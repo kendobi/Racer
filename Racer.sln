@@ -1,11 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{FEEE4927-8A37-6838-5896-D9FD6C572FDD}") = "Racer", "Assembly-CSharp-firstpass.csproj", "{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racer", "Assembly-CSharp.csproj", "{C6472871-CE41-F24E-BFD5-4A9AE5B8D9AA}"
 EndProject
-Project("{FEEE4927-8A37-6838-5896-D9FD6C572FDD}") = "Racer", "Assembly-CSharp.csproj", "{C6472871-CE41-F24E-BFD5-4A9AE5B8D9AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racer", "Assembly-CSharp-firstpass.csproj", "{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}"
 EndProject
-Project("{FEEE4927-8A37-6838-5896-D9FD6C572FDD}") = "Racer", "Assembly-CSharp-Editor.csproj", "{49D771F3-FA08-60C5-2DCC-531338D23DDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racer", "Assembly-CSharp-Editor.csproj", "{49D771F3-FA08-60C5-2DCC-531338D23DDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6472871-CE41-F24E-BFD5-4A9AE5B8D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6472871-CE41-F24E-BFD5-4A9AE5B8D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6472871-CE41-F24E-BFD5-4A9AE5B8D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6472871-CE41-F24E-BFD5-4A9AE5B8D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B773EDA-0A66-0519-20E0-3E5EA1E33D78}.Release|Any CPU.Build.0 = Release|Any CPU
 		{49D771F3-FA08-60C5-2DCC-531338D23DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49D771F3-FA08-60C5-2DCC-531338D23DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D771F3-FA08-60C5-2DCC-531338D23DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU

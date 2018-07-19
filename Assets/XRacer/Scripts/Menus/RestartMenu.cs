@@ -27,12 +27,12 @@ public class RestartMenu : MenuScreen
 		base.Awake();
 
 		// get references to the elements we'll need to change later.
-		normalScreen = transform.FindChild("NormalScreen").GetComponent<CanvasGroup>();
-		newRecordScreen = transform.FindChild("NewRecordScreen").GetComponent<CanvasGroup>();
-		distanceText = transform.FindChild("NormalScreen/DistanceMeters").GetComponent<Text>();
-		oldRecordText = transform.FindChild("NormalScreen/RecordMeters").GetComponent<Text>();
-		newRecordText = transform.FindChild("NewRecordScreen/NewRecordMeters").GetComponent<Text>();
-		creditScoreText = transform.FindChild("CreditScore").GetComponent<Text>();
+		normalScreen = transform.Find("NormalScreen").GetComponent<CanvasGroup>();
+		newRecordScreen = transform.Find("NewRecordScreen").GetComponent<CanvasGroup>();
+		distanceText = transform.Find("NormalScreen/DistanceMeters").GetComponent<Text>();
+		oldRecordText = transform.Find("NormalScreen/RecordMeters").GetComponent<Text>();
+		newRecordText = transform.Find("NewRecordScreen/NewRecordMeters").GetComponent<Text>();
+		creditScoreText = transform.Find("CreditScore").GetComponent<Text>();
 	}
 
 	public override void Show(float fade, TransitionDirection direction, SimpleTween.Callback callback)

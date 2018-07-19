@@ -27,6 +27,7 @@ public class PlayerControl : MonoBehaviour
 	public GameObject collisionParticles;
 	[Tooltip("The default prefab to use for the vehicle model")]
 	public GameObject defaultShipPrefab;
+	private Animator animator;
 
 	[Header("Mobile Options")]
 	[Tooltip("What input method to use on mobile devices")]
@@ -74,6 +75,7 @@ public class PlayerControl : MonoBehaviour
 	{
 		powerupLayer = LayerMask.NameToLayer("Powerup");
 
+
 		// remember our starting speed.
 		startingSpeed = speed;
 
@@ -90,6 +92,7 @@ public class PlayerControl : MonoBehaviour
 		speedMultiplier = 1.0f;
 		crashed = false;
 		speed = startingSpeed;
+
 	}
 
 	public void SetShipModel(GameObject shipPrefab)
@@ -101,6 +104,7 @@ public class PlayerControl : MonoBehaviour
 		// instantiate a new vehicle model, and parent it to this object
 		shipModel = Instantiate(shipPrefab, transform.position, transform.rotation) as GameObject;
 		shipModel.transform.parent = transform;
+		animator = shipModel.GetComponent<Animator>();
 	}
 
 	private float GetSteerInput()
@@ -129,10 +133,25 @@ public class PlayerControl : MonoBehaviour
 	{
 		// get the steering input
 		float steerValue = GetSteerInput();
+
+
 		// vary the steering speed with the speed multiplier (but only a little, otherwise there's no benefit to slow motion)
 		float steerSpd = steerSpeed * (Mathf.Lerp(speedMultiplier, 1.0f, 0.01f));
 		// smoothly lerp our current steer value towards the target input value
 		steer = Mathf.Lerp (steer, steerSpd * steerValue, tiltSpeed * Time.deltaTime);
+		/*
+		float steerValAnim = steer/20;
+
+		if (steerValAnim < 0.0f) {
+			steerValAnim = Mathf.Abs (steer/20);
+
+		}
+		if (steerValAnim > 0.0f) {
+			steerValAnim = (0.5f + (steer / 20));
+		} 
+		print (steer);
+
+		animator.SetFloat ("steerValue", steerValAnim);*/
 
 		// tilt the vehicle as we steer
 		float targetTilt = -steerValue * tiltAngle;

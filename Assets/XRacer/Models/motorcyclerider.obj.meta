@@ -9,19 +9,44 @@ ModelImporter:
     100002: Generic
     100004: //RootNode
     100006: Polygon
+    100008: motorcyclerider:Cylinder
+    100010: motorcyclerider:Generic
+    100012: motorcyclerider:Polygon
+    100014: motorcyclerider:Polygon1
+    100016: motorcyclerider:Polygon2
     400000: Cylinder
     400002: Generic
     400004: //RootNode
     400006: Polygon
+    400008: motorcyclerider:Cylinder
+    400010: motorcyclerider:Generic
+    400012: motorcyclerider:Polygon
+    400014: motorcyclerider:Polygon1
+    400016: motorcyclerider:Polygon2
     2300000: Cylinder
     2300002: Generic
     2300004: Polygon
+    2300006: motorcyclerider:Cylinder
+    2300008: motorcyclerider:Generic
+    2300010: motorcyclerider:Polygon
+    2300012: motorcyclerider:Polygon1
+    2300014: motorcyclerider:Polygon2
     3300000: Cylinder
     3300002: Generic
     3300004: Polygon
+    3300006: motorcyclerider:Cylinder
+    3300008: motorcyclerider:Generic
+    3300010: motorcyclerider:Polygon
+    3300012: motorcyclerider:Polygon1
+    3300014: motorcyclerider:Polygon2
     4300000: Cylinder
     4300002: Generic
     4300004: Polygon
+    4300006: motorcyclerider:Cylinder
+    4300008: motorcyclerider:Generic
+    4300010: motorcyclerider:Polygon
+    4300012: motorcyclerider:Polygon1
+    4300014: motorcyclerider:Polygon2
   materials:
     importMaterials: 1
     materialName: 0
@@ -43,17 +68,17 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.2
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 1
+    importBlendShapes: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
@@ -63,9 +88,9 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []

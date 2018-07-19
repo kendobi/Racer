@@ -38,10 +38,10 @@ public class ShopMenuItem : MonoBehaviour
 		}
 
 		// get our child text components
-		statusText = transform.FindChild("StatusText").GetComponent<Text>();
-		costText = transform.FindChild("CostText").GetComponent<Text>();
-		costNumText = transform.FindChild("CostNumber").GetComponent<Text>();
-		disabledOverlay = transform.FindChild("DisabledOverlay").GetComponent<RectTransform>();
+		statusText = transform.Find("StatusText").GetComponent<Text>();
+		costText = transform.Find("CostText").GetComponent<Text>();
+		costNumText = transform.Find("CostNumber").GetComponent<Text>();
+		disabledOverlay = transform.Find("DisabledOverlay").GetComponent<RectTransform>();
 
 		// set the cost text
 		costNumText.text = item.cost.ToString();

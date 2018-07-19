@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour
 	[Tooltip("Width across the horizon in meters")]
 	public float horizonWidth = 300.0f;
 
-	public const float kBlockSize = 64.0f; 		// size of one block tile in x,z dimensions
+	public const float kBlockSize = 128.0f; 		// size of one block tile in x,z dimensions
 
 	private List<GameObject> blocks = new List<GameObject>();	// the list of blocks that are currently 'live'
 
@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
 		levelSections = GetComponentsInChildren<LevelSection>();
 
 		// make the fog opaque at the horizon distance, to hide the new rows being generated.
-		RenderSettings.fogEndDistance = horizonDist;
+		RenderSettings.fogEndDistance = horizonDist/1.25f;
 	}
 
 	/// <summary>
