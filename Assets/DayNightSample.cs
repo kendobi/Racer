@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.PostProcessing;
 
 public class DayNightSample : MonoBehaviour {
 	public Gradient skyColors;
@@ -8,6 +9,7 @@ public class DayNightSample : MonoBehaviour {
 	public Gradient lightColors;
 	public Gradient fogColors;
 	public Gradient ambientColors;
+	public PostProcessingProfile ppProfile;
 	[Range(0.0f, 24.0f)]
 	public float timeOfDay = 12f;
 	public float timeSpeed = .1f;
@@ -93,6 +95,7 @@ public class DayNightSample : MonoBehaviour {
 		}
 		ChangeFogColor (currentFogColor);
 		ChangeAmbientColor (currentAmbientColor);
+		ChangeColorGrading ();
 	}
 
 	void IncreaseTime() {
@@ -138,10 +141,10 @@ public class DayNightSample : MonoBehaviour {
 	}
 
 	void ChangeSkyColor(Color color, Color middleColor, Color bottomColor) {
-		skyVertexColors [3] = color;
-		skyVertexColors [2] = color;
-		skyVertexColors [1] = middleColor;
-		skyVertexColors [0] = middleColor;
+		skyVertexColors [1] = color;
+		skyVertexColors [0] = color;
+		skyVertexColors [3] = middleColor;
+		skyVertexColors [2] = middleColor;
 		skyVertexColors [5] = bottomColor;
 		skyVertexColors [4] = bottomColor;
 		skyMesh.colors = skyVertexColors;
@@ -199,5 +202,8 @@ public class DayNightSample : MonoBehaviour {
 
 	public Color GetCurrentAmbientColor() {
 		return ambientColors.Evaluate(timeOfDay / 24);
+	}
+
+	void ChangeColorGrading(){
 	}
 }

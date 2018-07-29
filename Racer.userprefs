@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/XRacer/Scripts/LevelGeneration/LevelManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PostProcessing/Runtime/PostProcessingProfile.cs">
     <Files>
+      <File FileName="Assets/DayNightSample.cs" Line="208" Column="3" />
       <File FileName="Assets/XRacer/Scripts/Core/PlayerControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/XRacer/Scripts/Menus/MenuSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets/XRacer/Scripts/LevelGeneration/LevelManager.cs" Line="156" Column="42" />
-      <File FileName="Assets/XRacer/Scripts/LevelGeneration/RandomSection.cs" Line="1" Column="1" />
-      <File FileName="Assets/XRacer/Scripts/Environment/SlideMotion.cs" Line="1" Column="1" />
       <File FileName="Assets/XRacer/Scripts/Core/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/PostProcessing/Runtime/PostProcessingProfile.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

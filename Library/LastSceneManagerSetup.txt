@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/XRacer/Scenes/XRacer-Mobile.unity
+- path: Assets/DreamChaser/Scenes/DreamChaser-Mobile.unity
   isLoaded: 1
   isActive: 1

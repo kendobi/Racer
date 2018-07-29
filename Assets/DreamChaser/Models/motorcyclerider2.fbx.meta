@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 9f0d9710a8b624c1f9ad6346791bf5b6
+timeCreated: 1532413388
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: motorcyclerider2:back
+    100004: motorcyclerider2:backfins
+    100006: motorcyclerider2:backinner
+    100008: motorcyclerider2:backlight
+    100010: motorcyclerider2:base
+    100012: motorcyclerider2:bodytorso
+    100014: motorcyclerider2:cape
+    100016: motorcyclerider2:engine
+    100018: motorcyclerider2:engine1
+    100020: motorcyclerider2:engine2
+    100022: motorcyclerider2:enginelight
+    100024: motorcyclerider2:frontfins
+    100026: motorcyclerider2:handlebars
+    100028: motorcyclerider2:head
+    100030: motorcyclerider2:legs
+    100032: motorcyclerider2:motorbody
+    100034: motorcyclerider2:sideviewmirrors
+    100036: motorcyclerider2:windshield
+    400000: //RootNode
+    400002: motorcyclerider2:back
+    400004: motorcyclerider2:backfins
+    400006: motorcyclerider2:backinner
+    400008: motorcyclerider2:backlight
+    400010: motorcyclerider2:base
+    400012: motorcyclerider2:bodytorso
+    400014: motorcyclerider2:cape
+    400016: motorcyclerider2:engine
+    400018: motorcyclerider2:engine1
+    400020: motorcyclerider2:engine2
+    400022: motorcyclerider2:enginelight
+    400024: motorcyclerider2:frontfins
+    400026: motorcyclerider2:handlebars
+    400028: motorcyclerider2:head
+    400030: motorcyclerider2:legs
+    400032: motorcyclerider2:motorbody
+    400034: motorcyclerider2:sideviewmirrors
+    400036: motorcyclerider2:windshield
+    2100000: phong1
+    2100002: phong2
+    2300000: motorcyclerider2:back
+    2300002: motorcyclerider2:backfins
+    2300004: motorcyclerider2:backinner
+    2300006: motorcyclerider2:backlight
+    2300008: motorcyclerider2:base
+    2300010: motorcyclerider2:bodytorso
+    2300012: motorcyclerider2:cape
+    2300014: motorcyclerider2:engine
+    2300016: motorcyclerider2:engine1
+    2300018: motorcyclerider2:engine2
+    2300020: motorcyclerider2:enginelight
+    2300022: motorcyclerider2:frontfins
+    2300024: motorcyclerider2:handlebars
+    2300026: motorcyclerider2:head
+    2300028: motorcyclerider2:legs
+    2300030: motorcyclerider2:motorbody
+    2300032: motorcyclerider2:sideviewmirrors
+    2300034: motorcyclerider2:windshield
+    3300000: motorcyclerider2:back
+    3300002: motorcyclerider2:backfins
+    3300004: motorcyclerider2:backinner
+    3300006: motorcyclerider2:backlight
+    3300008: motorcyclerider2:base
+    3300010: motorcyclerider2:bodytorso
+    3300012: motorcyclerider2:cape
+    3300014: motorcyclerider2:engine
+    3300016: motorcyclerider2:engine1
+    3300018: motorcyclerider2:engine2
+    3300020: motorcyclerider2:enginelight
+    3300022: motorcyclerider2:frontfins
+    3300024: motorcyclerider2:handlebars
+    3300026: motorcyclerider2:head
+    3300028: motorcyclerider2:legs
+    3300030: motorcyclerider2:motorbody
+    3300032: motorcyclerider2:sideviewmirrors
+    3300034: motorcyclerider2:windshield
+    4300000: motorcyclerider2:base
+    4300002: motorcyclerider2:engine
+    4300004: motorcyclerider2:backfins
+    4300006: motorcyclerider2:windshield
+    4300008: motorcyclerider2:head
+    4300010: motorcyclerider2:back
+    4300012: motorcyclerider2:motorbody
+    4300014: motorcyclerider2:backlight
+    4300016: motorcyclerider2:bodytorso
+    4300018: motorcyclerider2:legs
+    4300020: motorcyclerider2:engine1
+    4300022: motorcyclerider2:engine2
+    4300024: motorcyclerider2:sideviewmirrors
+    4300026: motorcyclerider2:handlebars
+    4300028: motorcyclerider2:frontfins
+    4300030: motorcyclerider2:cape
+    4300032: motorcyclerider2:backinner
+    4300034: motorcyclerider2:enginelight
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,7 +2,7 @@ iOS
 PlayerPath?
 /Users/kennykong/Racer/Builds/ios
 SceneListBegin?
-Assets/XRacer/Scenes/XRacer-Mobile.unity
+Assets/DreamChaser/Scenes/DreamChaser-Mobile.unity
 SceneListEnd?
 e2e980e0061516c8eb2789c43a9ce6fe Assembly-CSharp.dll:.ShipSkin
 f62d1e12c4ea2e5d19ca5a2c81b0bf32 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.TiltShift
@@ -194,6 +194,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 099e37e737209d13a4c6a3454bae05b3 Assembly-CSharp.dll:EZCameraShake.CameraShaker
 00566559aaf2ba51543e32371603951b Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.NoiseAndGrain
+1e5443b9861e6326ab8b0f8cdfc432a8 Assembly-CSharp.dll:.DayNightSample
 aa25f01f89756814131bcd3b3195e446 Assembly-CSharp.dll:.GameManager
 124b19a8c9477dcacb0bda343d41d639 Assembly-CSharp.dll:.CreditMultiplier
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -211,6 +212,7 @@ a51173280b81aed3c792da6e9cebc4cd Assembly-CSharp-firstpass.dll:UnityStandardAsse
 f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingProfile
 2f264043a6bb59ca3369df5a4d180e17 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.CameraMotionBlur
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+c0dc6191c988e7f457ebe3eabe892984 Assembly-CSharp.dll:.DayNightController
 293e120551beaaeacbee1f1e7cae85df Assembly-CSharp.dll:.ShopItem
 3aceed4c2a878381ad7c58aa4501898e Assembly-CSharp.dll:.SectionMessage
 53dbd7baa3c8da2f87828dd70d70dae4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated

@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: c006d2da61f5a41aea8790b003af2be5
+timeCreated: 1532066538
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Generic
+    100004: //RootNode
+    100006: motorcyclerider:Cylinder
+    100008: motorcyclerider:Generic
+    100010: motorcyclerider:Polygon
+    100012: motorcyclerider:Polygon1
+    100014: motorcyclerider:Polygon2
+    100016: back
+    100018: backfins
+    100020: backlight
+    100022: base
+    100024: bodytorso
+    100026: cape
+    100028: engine
+    100030: engine1
+    100032: engine2
+    100034: frontfins
+    100036: handlebars
+    100038: head
+    100040: legs
+    100042: motorbody
+    100044: sideviewmirrors
+    100046: windshield
+    100048: backinner
+    100050: enginelight
+    400000: Cube
+    400002: Generic
+    400004: //RootNode
+    400006: motorcyclerider:Cylinder
+    400008: motorcyclerider:Generic
+    400010: motorcyclerider:Polygon
+    400012: motorcyclerider:Polygon1
+    400014: motorcyclerider:Polygon2
+    400016: back
+    400018: backfins
+    400020: backlight
+    400022: base
+    400024: bodytorso
+    400026: cape
+    400028: engine
+    400030: engine1
+    400032: engine2
+    400034: frontfins
+    400036: handlebars
+    400038: head
+    400040: legs
+    400042: motorbody
+    400044: sideviewmirrors
+    400046: windshield
+    400048: backinner
+    400050: enginelight
+    2100000: CubeMat
+    2100002: GenericMat
+    2100004: motorcyclerider_CylinderMat
+    2100006: motorcyclerider_GenericMat
+    2100008: motorcyclerider_PolygonMat
+    2100010: motorcyclerider_Polygon1Mat
+    2100012: motorcyclerider_Polygon2Mat
+    2100014: backMat
+    2100016: backfinsMat
+    2100018: backlightMat
+    2100020: baseMat
+    2100022: bodytorsoMat
+    2100024: capeMat
+    2100026: engineMat
+    2100028: engine1Mat
+    2100030: engine2Mat
+    2100032: frontfinsMat
+    2100034: handlebarsMat
+    2100036: headMat
+    2100038: legsMat
+    2100040: motorbodyMat
+    2100042: sideviewmirrorsMat
+    2100044: windshieldMat
+    2100046: backinnerMat
+    2100048: enginelightMat
+    2300000: Cube
+    2300002: Generic
+    2300004: motorcyclerider:Cylinder
+    2300006: motorcyclerider:Generic
+    2300008: motorcyclerider:Polygon
+    2300010: motorcyclerider:Polygon1
+    2300012: motorcyclerider:Polygon2
+    2300014: back
+    2300016: backfins
+    2300018: backlight
+    2300020: base
+    2300022: bodytorso
+    2300024: cape
+    2300026: engine
+    2300028: engine1
+    2300030: engine2
+    2300032: frontfins
+    2300034: handlebars
+    2300036: head
+    2300038: legs
+    2300040: motorbody
+    2300042: sideviewmirrors
+    2300044: windshield
+    2300046: backinner
+    2300048: enginelight
+    3300000: Cube
+    3300002: Generic
+    3300004: motorcyclerider:Cylinder
+    3300006: motorcyclerider:Generic
+    3300008: motorcyclerider:Polygon
+    3300010: motorcyclerider:Polygon1
+    3300012: motorcyclerider:Polygon2
+    3300014: back
+    3300016: backfins
+    3300018: backlight
+    3300020: base
+    3300022: bodytorso
+    3300024: cape
+    3300026: engine
+    3300028: engine1
+    3300030: engine2
+    3300032: frontfins
+    3300034: handlebars
+    3300036: head
+    3300038: legs
+    3300040: motorbody
+    3300042: sideviewmirrors
+    3300044: windshield
+    3300046: backinner
+    3300048: enginelight
+    4300000: Cube
+    4300002: Generic
+    4300004: motorcyclerider:Cylinder
+    4300006: motorcyclerider:Generic
+    4300008: motorcyclerider:Polygon
+    4300010: motorcyclerider:Polygon1
+    4300012: motorcyclerider:Polygon2
+    4300014: back
+    4300016: backfins
+    4300018: backlight
+    4300020: base
+    4300022: bodytorso
+    4300024: cape
+    4300026: engine
+    4300028: engine1
+    4300030: engine2
+    4300032: frontfins
+    4300034: handlebars
+    4300036: head
+    4300038: legs
+    4300040: motorbody
+    4300042: sideviewmirrors
+    4300044: windshield
+    4300046: backinner
+    4300048: enginelight
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
