@@ -187,6 +187,7 @@
      <None Include="Assets\polyquest_v1_rocks\shaders\PolyboxCoreForwardSimple.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\DreamChaser\Materials\Flag.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
