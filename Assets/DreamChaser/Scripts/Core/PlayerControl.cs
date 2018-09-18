@@ -21,6 +21,8 @@ public class PlayerControl : MonoBehaviour
 	[Tooltip("The speed at which the vehicle turns")]
 	public float tiltSpeed = 10.0f;
 
+	public float slide = 20.0f;
+
 	[Tooltip("The Collision radius of the vehicle")]
 	public float collisionRadius = 0.5f;
 	[Tooltip("A prefab to instantiate when the vehicle crashes")]
@@ -159,6 +161,11 @@ public class PlayerControl : MonoBehaviour
 		Vector3 rot = transform.eulerAngles;
 		rot.z = tilt;
 		transform.eulerAngles = rot;
+		print (tilt);
+
+		transform.position = new Vector3 ((tilt / slide), 11.0f, 0.0f);
+
+
 
 		// check for collisions (use a slightly longer distance than we actually travelled to make sure we don't miss
 		// any collisions - if we test the exact distance we've moved then we occasionaly fly straight through obstacles).
