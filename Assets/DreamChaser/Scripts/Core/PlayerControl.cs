@@ -163,6 +163,7 @@ public class PlayerControl : MonoBehaviour
 		transform.eulerAngles = rot;
 		print (tilt);
 
+		//move player side to side while turning
 		transform.position = new Vector3 ((tilt / slide), 11.0f, 0.0f);
 
 

@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour
 	[Tooltip("Width across the horizon in meters")]
 	public float horizonWidth = 300.0f;
 
-	public const float kBlockSize = 128.0f; 		// size of one block tile in x,z dimensions
+	public const float kBlockSize = 256.0f; 		// size of one block tile in x,z dimensions
 
 	private List<GameObject> blocks = new List<GameObject>();	// the list of blocks that are currently 'live'
 

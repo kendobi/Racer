@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DreamChaser/Materials/Flag.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DreamChaser/Scripts/LevelGeneration/LevelManager.cs">
     <Files>
-      <File FileName="Assets/DreamChaser/Materials/Flag.shader" Line="50" Column="1" />
+      <File FileName="Assets/DreamChaser/Materials/Flag.shader" Line="1" Column="1" />
+      <File FileName="Assets/DreamChaser/Scripts/Core/PlayerControl.cs" Line="1" Column="1" />
       <File FileName="Assets/DayNightSample.cs" Line="1" Column="1" />
       <File FileName="Assets/PostProcessing/Runtime/PostProcessingProfile.cs" Line="1" Column="1" />
+      <File FileName="Assets/DreamChaser/Scripts/LevelGeneration/LevelManager.cs" Line="20" Column="37" />
+      <File FileName="Assets/DreamChaser/Scripts/LevelGeneration/RandomSection.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
