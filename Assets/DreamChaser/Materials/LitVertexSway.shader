@@ -1,4 +1,6 @@
-﻿Shader "Toon/Lit Vertex Sway" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Toon/Lit Vertex Sway" {
     Properties {
         [Header(Main)]
         _Color ("Main Color", Color) = (0.5,0.5,0.5,1)
@@ -56,7 +58,7 @@ struct Input {
  
 void vert( inout appdata_full v )
 {
-float4 worldSpaceVertex = mul( unity_ObjectToWorld, v.vertex );
+float4 worldSpaceVertex = UnityObjectToClipPos( v.vertex );
 #if XZAXIS_ON
 v.vertex.xz += sin( _Time.y * _Speed + worldSpaceVertex.y  * _Amount ) * _MaxWidth * v.color.r;
 #else

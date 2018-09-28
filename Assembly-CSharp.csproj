@@ -167,6 +167,7 @@
      <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_MeshUtility.cs" />
      <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Util.cs" />
      <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Vector.cs" />
+     <Compile Include="Assets\RotateOverTime.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend_SfSrc.shader" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendMobile.shader" />
@@ -209,7 +210,9 @@
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendBmp.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\Clouds\Shader\CloudsTess.shader" />
      <None Include="Assets\ProCore\Polybrush\Shader\Example\z_UnlitTextureBlend_WithMetaData.shader" />
+     <None Include="Assets\Clouds\Shader\CloudsMoving.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
      <None Include="Assets\polyquest_v1_rocks\scenes\Rocks_Scenes\Rocks_Textured_lightmapped_scenes\Troubleshooting_textured_scenes_TX.txt" />
      <None Include="Assets\polyquest_v1_rocks\scenes\Rocks_Scenes\Rocks_Textured_lightmapped_scenes\Troubleshooting_lightmap_issues_LM.txt" />
