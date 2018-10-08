@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 895da2cfd855a4e16803b08c6d2b5fa2
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: chest
+    100002: head
+    100004: hips
+    100006: L_front_fin
+    100008: L_front_fin1
+    100010: L_front_fin2
+    100012: L_rear_fin1
+    100014: L_rear_fin2
+    100016: L_rear_fin3
+    100018: neck
+    100020: R_front_fin1
+    100022: R_front_fin2
+    100024: R_front_fin3
+    100026: R_rear_fin1
+    100028: R_rear_fin2
+    100030: R_rear_fin3
+    100032: tail1
+    100034: tail2
+    100036: tail3
+    100038: tail4
+    100040: tail5
+    100042: tail6
+    100044: //RootNode
+    100046: whaledragon1
+    400000: chest
+    400002: head
+    400004: hips
+    400006: L_front_fin
+    400008: L_front_fin1
+    400010: L_front_fin2
+    400012: L_rear_fin1
+    400014: L_rear_fin2
+    400016: L_rear_fin3
+    400018: neck
+    400020: R_front_fin1
+    400022: R_front_fin2
+    400024: R_front_fin3
+    400026: R_rear_fin1
+    400028: R_rear_fin2
+    400030: R_rear_fin3
+    400032: tail1
+    400034: tail2
+    400036: tail3
+    400038: tail4
+    400040: tail5
+    400042: tail6
+    400044: //RootNode
+    400046: whaledragon1
+    4300000: whaledragon1
+    7400000: swim
+    7400002: idle
+    9500000: //RootNode
+    13700000: whaledragon1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whaledragon_fins_mat
+    second: {fileID: 2100000, guid: 8e451641c3a3647adbbea0308167b06f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whaledragon_mat
+    second: {fileID: 2100000, guid: 60e19ffcce2e746cfa33a4349eca06db, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: swim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/neck
+        weight: 1
+      - path: head/neck/chest
+        weight: 1
+      - path: head/neck/chest/hips
+        weight: 1
+      - path: head/neck/chest/hips/L_rear_fin1
+        weight: 1
+      - path: head/neck/chest/hips/L_rear_fin1/L_rear_fin2
+        weight: 1
+      - path: head/neck/chest/hips/L_rear_fin1/L_rear_fin2/L_rear_fin3
+        weight: 1
+      - path: head/neck/chest/hips/R_rear_fin1
+        weight: 1
+      - path: head/neck/chest/hips/R_rear_fin1/R_rear_fin2
+        weight: 1
+      - path: head/neck/chest/hips/R_rear_fin1/R_rear_fin2/R_rear_fin3
+        weight: 1
+      - path: head/neck/chest/hips/tail1
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: head/neck/chest/L_front_fin1
+        weight: 1
+      - path: head/neck/chest/L_front_fin1/L_front_fin2
+        weight: 1
+      - path: head/neck/chest/L_front_fin1/L_front_fin2/L_front_fin
+        weight: 1
+      - path: head/neck/chest/R_front_fin1
+        weight: 1
+      - path: head/neck/chest/R_front_fin1/R_front_fin2
+        weight: 1
+      - path: head/neck/chest/R_front_fin1/R_front_fin2/R_front_fin3
+        weight: 1
+      - path: whaledragon1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: head
+        weight: 1
+      - path: head/neck
+        weight: 1
+      - path: head/neck/chest
+        weight: 1
+      - path: head/neck/chest/hips
+        weight: 1
+      - path: head/neck/chest/hips/L_rear_fin1
+        weight: 1
+      - path: head/neck/chest/hips/L_rear_fin1/L_rear_fin2
+        weight: 1
+      - path: head/neck/chest/hips/L_rear_fin1/L_rear_fin2/L_rear_fin3
+        weight: 1
+      - path: head/neck/chest/hips/R_rear_fin1
+        weight: 1
+      - path: head/neck/chest/hips/R_rear_fin1/R_rear_fin2
+        weight: 1
+      - path: head/neck/chest/hips/R_rear_fin1/R_rear_fin2/R_rear_fin3
+        weight: 1
+      - path: head/neck/chest/hips/tail1
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: head/neck/chest/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: head/neck/chest/L_front_fin1
+        weight: 1
+      - path: head/neck/chest/L_front_fin1/L_front_fin2
+        weight: 1
+      - path: head/neck/chest/L_front_fin1/L_front_fin2/L_front_fin
+        weight: 1
+      - path: head/neck/chest/R_front_fin1
+        weight: 1
+      - path: head/neck/chest/R_front_fin1/R_front_fin2
+        weight: 1
+      - path: head/neck/chest/R_front_fin1/R_front_fin2/R_front_fin3
+        weight: 1
+      - path: whaledragon1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

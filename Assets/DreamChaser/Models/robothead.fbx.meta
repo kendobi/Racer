@@ -16,6 +16,7 @@ ModelImporter:
     400006: robothead:jawcube
     400008: robothead:smalleye
     2100000: phong1
+    2100002: phong2
     2300000: robothead:head
     2300002: robothead:jaw
     2300004: robothead:jawcube
@@ -30,7 +31,7 @@ ModelImporter:
     4300006: robothead:smalleye
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -61,16 +62,16 @@ ModelImporter:
     globalScale: 10
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
-    weldVertices: 1
+    weldVertices: 0
     preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -83,7 +84,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 0
     normalCalculationMode: 3
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

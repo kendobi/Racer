@@ -8,9 +8,9 @@ Shader "Toon/Lit Vertex Sway" {
         _Ramp ("Toon Ramp (RGB)", 2D) = "gray" {}
         [Space]
         [Header(Movement)]
-        _Speed ("Speed", Range(0,20)) = 1
-        _Amount ("Wave Amount", Range(0,2)) = 1
-        _MaxWidth ("Max Width", Range(0,2)) = 1
+        _Speed ("Speed", Range(-20,20)) = 1
+        _Amount ("Wave Amount", Range(-20,20)) = 1
+        _MaxWidth ("Max Width", Range(0,20)) = 1
         [MaterialToggle] XZAxis ("XZ Axis? (Otherwise YZ)", Float) = 0
     }
  

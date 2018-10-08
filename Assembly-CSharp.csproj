@@ -94,6 +94,8 @@
      <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShakePresets.cs" />
      <Compile Include="Assets\EZ Camera Shake\Scripts\CameraShaker.cs" />
      <Compile Include="Assets\EZ Camera Shake\Scripts\Utilities\CameraUtilities.cs" />
+     <Compile Include="Assets\FishGenerator\Scripts\FishGenerator.cs" />
+     <Compile Include="Assets\FishGenerator\Scripts\TurnAroundScript.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -197,6 +199,7 @@
      <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlendLegacy.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
      <None Include="Assets\polyquest_v1_rocks\scenes\Rocks_Scenes\Troubleshooting_textured_scenes_TX.txt" />
+     <None Include="Assets\FishGenerator\Shader\ToonLitIrridenscentMaskedSwaying.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate.shader" />
@@ -249,6 +252,7 @@
      <None Include="Assets\DreamChaser\Materials\Flag.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate_SfSrc.shader" />
+     <None Include="Assets\FishGenerator\Shader\ToonLitSwayingFish.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

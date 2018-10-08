@@ -8,17 +8,22 @@ ModelImporter:
     100000: //RootNode
     100002: robotBodyChestplate
     100004: robotBodyRibs
+    100006: robotBodyRibsSingle
     400000: //RootNode
     400002: robotBodyChestplate
     400004: robotBodyRibs
+    400006: robotBodyRibsSingle
     2100000: phong1
     2100002: phong2
     2300000: robotBodyChestplate
     2300002: robotBodyRibs
+    2300004: robotBodyRibsSingle
     3300000: robotBodyChestplate
     3300002: robotBodyRibs
+    3300004: robotBodyRibsSingle
     4300000: robotBodyChestplate
     4300002: robotBodyRibs
+    4300004: robotBodyRibsSingle
   externalObjects: {}
   materials:
     importMaterials: 1
