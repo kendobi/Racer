@@ -12,6 +12,8 @@ public class PlayerControl : MonoBehaviour
 		Accelerometer
 	}
 
+	public float height = 3.0f;
+
 	[Tooltip("The starting speed of the vehicle - in m/s")]
 	public float speed = 80.0f;
 	[Tooltip("The steering speed of the vehicle")]
@@ -50,6 +52,7 @@ public class PlayerControl : MonoBehaviour
 	private GameObject shipModel;			// our vehicle model
 
 	private int powerupLayer;				// layer that powerup collectables are on
+	private int fxLayer;
 
 	/// <summary>
 	/// Get the current steering value of the vehicle (between -1 and 1)
@@ -76,6 +79,7 @@ public class PlayerControl : MonoBehaviour
 	void Awake()
 	{
 		powerupLayer = LayerMask.NameToLayer("Powerup");
+		fxLayer = LayerMask.NameToLayer("FX");
 
 
 		// remember our starting speed.
@@ -164,7 +168,7 @@ public class PlayerControl : MonoBehaviour
 		print (tilt);
 
 		//move player side to side while turning
-		transform.position = new Vector3 ((tilt / slide), 11.0f, 0.0f);
+		transform.position = new Vector3 ((tilt / slide), height, 0.0f);
 
 
 
@@ -183,6 +187,10 @@ public class PlayerControl : MonoBehaviour
 				PowerupCollectable powerup = hit.collider.gameObject.GetComponent<PowerupCollectable>();
 				if(powerup != null)
 					powerup.OnCollected();
+			}
+			else if (hit.collider.gameObject.layer == fxLayer) {
+				//print ("TRIGGER FX");
+			
 			}
 			else if(!isInvincible)
 			{
