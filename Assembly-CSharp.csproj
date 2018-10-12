@@ -96,6 +96,9 @@
      <Compile Include="Assets\EZ Camera Shake\Scripts\Utilities\CameraUtilities.cs" />
      <Compile Include="Assets\FishGenerator\Scripts\FishGenerator.cs" />
      <Compile Include="Assets\FishGenerator\Scripts\TurnAroundScript.cs" />
+     <Compile Include="Assets\MobileColorGrading\Scripts\LB_LightingTrigger_Direct.cs" />
+     <Compile Include="Assets\MobileColorGrading\Scripts\LB_LightingTrigger_Profile.cs" />
+     <Compile Include="Assets\MobileColorGrading\Scripts\MobileColorGrading.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -225,6 +228,7 @@
      <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\DreamChaser\Materials\LitVertexSway.shader" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_StandardVertexColor.shader" />
+     <None Include="Assets\MobileColorGrading\Shaders\MobileColorGrading.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
      <None Include="Assets\ProCore\Polybrush\Shader\Noise.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
