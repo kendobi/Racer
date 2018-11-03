@@ -8,9 +8,9 @@ namespace UnityStandardAssets.ImageEffects
     [AddComponentMenu ("Image Effects/Displacement/Fisheye")]
     public class Fisheye : PostEffectsBase
 	{
-        [Range(-5f, 5f)]
+        [Range(0.0f, 1.5f)]
         public float strengthX = 0.05f;
-        [Range(-1f, 1.5f)]
+        [Range(0.0f, 1.5f)]
         public float strengthY = 0.05f;
 
         public Shader fishEyeShader = null;
@@ -39,7 +39,7 @@ namespace UnityStandardAssets.ImageEffects
 
             float ar = (source.width * 1.0f) / (source.height * 1.0f);
 
-            fisheyeMaterial.SetVector ("intensity", new Vector4 (strengthX * ar * oneOverBaseSize, strengthX * oneOverBaseSize, strengthX * ar * oneOverBaseSize, strengthX * oneOverBaseSize));
+            fisheyeMaterial.SetVector ("intensity", new Vector4 (strengthX * ar * oneOverBaseSize, strengthY * oneOverBaseSize, strengthX * ar * oneOverBaseSize, strengthY * oneOverBaseSize));
             Graphics.Blit (source, destination, fisheyeMaterial);
         }
     }

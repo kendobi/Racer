@@ -96,6 +96,21 @@
      <Compile Include="Assets\EZ Camera Shake\Scripts\Utilities\CameraUtilities.cs" />
      <Compile Include="Assets\FishGenerator\Scripts\FishGenerator.cs" />
      <Compile Include="Assets\FishGenerator\Scripts\TurnAroundScript.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\AnimalManager.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\AnimalState.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\AudioManager.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\IdleState.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\MovementState.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\SurfaceRotation.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimalScripts\WanderScript.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimationControl.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\AnimSpeed.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\DeathButtonControl.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\KillSwitch.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\PanelControl.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\PeriodicShake.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\- Scripts\PlaySound.cs" />
+     <Compile Include="Assets\Low Poly Animated Animals\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\MobileColorGrading\Scripts\LB_LightingTrigger_Direct.cs" />
      <Compile Include="Assets\MobileColorGrading\Scripts\LB_LightingTrigger_Profile.cs" />
      <Compile Include="Assets\MobileColorGrading\Scripts\MobileColorGrading.cs" />
@@ -209,6 +224,7 @@
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\PolygonSciFiCity\_Shaders\Particle VertexLit Blended_Backface.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
@@ -236,6 +252,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\ProCore\Polybrush\Font\SIL Open Font License.txt" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\Low Poly Animated Animals\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
@@ -250,6 +267,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\polyquest_v1_rocks\shaders\PolyboxCoreForwardSimple.cginc" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend.shader" />
+     <None Include="Assets\PolygonSciFiCity\_Shaders\UVScroll.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendWithVertexColor_SfSrc.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
@@ -257,6 +275,7 @@
      <None Include="Assets\DreamChaser\Materials\Flag.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TextureBlendModulate_SfSrc.shader" />
+     <None Include="Assets\PolygonSciFiCity\_Shaders\POLYGON_Triplanar.shader" />
      <None Include="Assets\FishGenerator\Shader\ToonLitSwayingFish.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

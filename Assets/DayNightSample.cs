@@ -13,6 +13,7 @@ public class DayNightSample : MonoBehaviour {
 	[Range(0.0f, 24.0f)]
 	public float timeOfDay = 12f;
 	public float timeSpeed = .1f;
+	public AnimationCurve colorGradingCurve;
 	public AnimationCurve sunAnimationCurve;
 	public AnimationCurve moonAnimationCurve;
 	public AnimationCurve sunHorizontalAnimationCurve;
@@ -38,6 +39,7 @@ public class DayNightSample : MonoBehaviour {
 	GameObject shootingStartsGO;
 	ParticleSystem shootingStars;
 	bool canShootStars = false;
+	GameObject colorGradingB;
 
 	// public static DayNightSample Instance { get; private set; }
 
@@ -58,6 +60,8 @@ public class DayNightSample : MonoBehaviour {
 		}
 
 		skylight = GameObject.Find("Skylight").GetComponent<Light>();
+
+		colorGradingB = GameObject.Find("MainCamera");
 
 		nightSky = GameObject.Find("NightSky");
 		if (nightSky) {
@@ -90,12 +94,14 @@ public class DayNightSample : MonoBehaviour {
 		if (nightSky) {
 			UpdateNighskyVisibility();
 		}
+		if (colorGradingB) {
+			UpdateColorGrading ();
+		}
 		if (shootingStartsGO) {
 			UpdateShootingStars ();
 		}
 		ChangeFogColor (currentFogColor);
 		ChangeAmbientColor (currentAmbientColor);
-		ChangeColorGrading ();
 	}
 
 	void IncreaseTime() {
@@ -138,6 +144,11 @@ public class DayNightSample : MonoBehaviour {
 	void UpdateNighskyVisibility() {
 		float currentPointInCurve = nightSkyTransparency.Evaluate(timeOfDay);
 		nightSkyRenderer.material.color = new Color(1, 1, 1, currentPointInCurve);
+	}
+
+	void UpdateColorGrading(){
+		float currentPointInCurve = colorGradingCurve.Evaluate(timeOfDay);
+		colorGradingB.GetComponent<MobileColorGrading>().B = currentPointInCurve;
 	}
 
 	void ChangeSkyColor(Color color, Color middleColor, Color bottomColor) {
