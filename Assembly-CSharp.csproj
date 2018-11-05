@@ -188,6 +188,7 @@
      <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Util.cs" />
      <Compile Include="Assets\ProCore\Polybrush\Code\Scripts\Utility\z_Vector.cs" />
      <Compile Include="Assets\RotateOverTime.cs" />
+     <Compile Include="Assets\SpawnTimer.cs" />
      <Compile Include="Assets\TriggerFX.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\ProCore\Polybrush\Shader\z_TriPlanarBlend_SfSrc.shader" />
